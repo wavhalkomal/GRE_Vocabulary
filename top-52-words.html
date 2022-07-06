@@ -1,0 +1,924 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>GRE Vocabulary</title>
+   
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico"> 
+  <link rel="icon" href="icon/favicon_main.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<style>
+* {box-sizing: border-box;}
+
+
+body, html {
+  scroll-behavior: smooth;
+   
+  margin: 0;
+  font-family:  'Merriweather', serif;
+}
+
+ .m_title {
+  display: inline-block; /* Thanks to Fanky (https://stackoverflow.com/users/2095642/fanky) */
+  
+  text-transform: lowercase
+}
+
+.m_title:first-letter {
+  text-transform: uppercase
+}
+
+
+
+
+/*---------------For social media icon hover---------------------------------------------------------------------*/
+/* .fa {
+  padding: 19px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  color: black;
+} */
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding:   7px 0 7px;
+}
+
+/* ==================== */
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    transition: .3s ease-out;
+}
+
+
+.back-btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+.back-btn, .btn-large, .btn-floating, .btn-large, .btn-flat {
+    font-size: 1rem;
+    outline: 0;
+}
+
+.back-btn, .btn-large, .btn-flat {
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+.back-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.z-depth-1, nav, .card-panel, .card, .toast, .back-btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+}
+
+.black {
+    background-color: #000000 !important;
+}
+
+.back-btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
+    font-size: 1.3rem;
+    line-height: inherit;
+}
+
+i.left {
+    float: left;
+    margin-right: 15px;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.left {
+    float: left !important;
+}
+
+i {
+    line-height: inherit;
+}
+/* ===== */
+.container .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.flow-text {
+    font-size: 1.1rem;
+}
+.flow-text {
+    font-weight: 300;
+}
+ 
+  
+ 
+.collection {
+    margin: 0rem 0 0.8rem 0;
+    border: 0px solid #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    left:19%;
+    top:10px;
+    width: 61%;
+}
+.collection .collection-item {
+    background-color: #fff;
+    line-height: 0.1rem;
+    padding:  0px 0px;
+    margin: 0;
+    border-bottom: 0px solid #e0e0e0;
+}
+
+
+ 
+.collection1 {
+      
+    position: relative;
+    text-align: left;
+    left:10%;
+    top: -13px;
+    width: 51%;
+}
+
+.collection1 .collection-item1 {
+    background-color: #fff;  
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.chip { 
+    height: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6); 
+    padding: 0 12px; 
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+/* slideshow of screenshots */
+
+.slideshow-container {
+max-width: 800px;
+position: relative;
+margin: auto
+}
+
+.mySlides {
+display: none;
+height: 400px;
+/* border: solid 1px black; */
+
+}
+
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: #222428;
+font-weight: bold;
+font-size: 30px;
+transition: .6s ease;
+border-radius: 0 3px 3px 0
+}
+
+.next {
+right: -70px;
+border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+left: -70px;
+border-radius: 3px 3px 3px 3px
+}
+
+.prev:hover,
+.next:hover {
+color: #f2f2f2;
+background-color: rgba(0, 0, 0, 0.8)
+}
+
+/* .text {
+color: #f2f2f2;
+font-size: 15px;
+padding-top: 12px;
+padding-bottom: 12px;
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+background-color: #222428
+} */
+
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 4px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color .6s ease
+}
+
+.active,
+.dot:hover {
+background-color: #000
+}
+
+/* bounce animation */
+.animated.bounceIn, .animated.bounceOut, .animated.flipOutX, .animated.flipOutY {
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #ccc;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+
+.topnav .word-container {
+  float: center;
+}
+
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+
+
+
+ 
+body {
+  color: #40514E;
+  margin: 0;
+   font-size: 1.1rem;
+   
+  font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+  color: black; 
+  font-size: 2.625rem; 
+}
+
+h2 {
+  color: black; 
+  font-size: 1.8rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+ 
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.85rem;
+  padding: 10px 0;
+}
+
+ 
+strong{
+color: black;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  /* color: #EAF6F6; */
+}
+
+ 
+
+.top-container {
+  background-color: white;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.85rem;
+  padding: 10px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 25%;
+  float: left; 
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+/* Go To Top Button on Screen */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  z-index: 99;
+  font-size: 1px;
+  border: none;
+  outline: none;
+  background-color: #F44336 !important;
+  color: white;
+  cursor: pointer;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  background-color: #F44336 !important;
+}
+
+ 
+form :where(textarea, select, button){
+  outline: none;
+  width: 20%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+}
+form .row textarea{
+  resize: none;
+  height: 110px;
+  font-size: 15px;
+  padding: 8px 10px;
+  border: 1px solid #999;
+}
+form .row textarea::-webkit-scrollbar{
+  width: 0px;
+}
+form .row .outer{
+  height: 47px;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+form .row select{
+  font-size: 14px;
+  background: none;
+}
+form .row select::-webkit-scrollbar{
+  width: 1px;
+}
+form .row select::-webkit-scrollbar-track{
+  background: #fff;
+}
+form .row select::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+ 
+
+ 
+ 
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active"  >Home</a>
+  <a href="index.html" >GRE All Words</a>
+  <a href="top-52-words.html">GRE 52</a> 
+  
+  
+</div>
+     
+	 
+<br>  	 
+	 
+<ol style="line-height:199%;padding: 8px 310px;">
+<li><strong>anomaly</strong> – <em>noun</em> – something that is unusual or unexpected
+<ul>
+<li>The student’s poor performance on the latest test was an <strong>anomaly</strong> since she had previously earned excellent grades.</li>
+</ul>
+</li>
+<li><strong>equivocal</strong> – <em>adj.</em> – not easily understood or explained
+<ul>
+<li>Politicians have been known to provide <strong>equivocal</strong> answers to reporters’ questions.</li>
+</ul>
+</li>
+<li><strong>lucid</strong> – adj. – very clear and easy to understand
+<ul>
+<li>The lecture was <strong>lucid</strong> and straightforward, allowing the students to fully grasp the concepts presented.</li>
+</ul>
+</li>
+<li><strong>precipitate</strong> – <em>verb</em> – to cause (something) to happen quickly or suddenly
+<ul>
+<li>Unforeseen costs can <strong>precipitate</strong> a budget crisis.</li>
+</ul>
+</li>
+<li><strong>assuage</strong> – <em>verb</em> – to make (an unpleasant feeling) less intense
+<ul>
+<li>A massage can <strong>assuage</strong> the soreness in your muscles.</li>
+</ul>
+</li>
+<li><strong>erudite</strong> – <em>adj.</em> – having or showing great knowledge
+<ul>
+<li>High school students often struggle with novels that are more <strong>erudite</strong> than they are entertaining.</li>
+</ul>
+</li>
+<li><strong>opaque</strong> – <em>adj.</em> –&nbsp; not able to be seen through; not easily understood
+<ul>
+<li>Medical jargon includes many <strong>opaque</strong> terms like macrosomic, which describes a newborn who weighs more than 4,000 grams.</li>
+</ul>
+</li>
+<li><strong>prodigal</strong> – <em>adj.</em> – wastefully extravagant
+<ul>
+<li>The <strong>prodigal</strong> prince bought lavish gifts and planned expensive events.</li>
+</ul>
+</li>
+<li><strong>enigma</strong> – <em>noun</em> – a person or thing that is mysterious, puzzling, or difficult to understand
+<ul>
+<li>Scientists continue to research cancer to solve the <strong>enigma</strong> of its primary cause, which will hopefully lead to a cure.</li>
+</ul>
+</li>
+<li><strong>fervid</strong> – <em>adj.</em> – intensely enthusiastic or passionate
+<ul>
+<li>The child showed a <strong>fervid</strong> fascination for superheroes, pouring over comic books for hours.</li>
+</ul>
+</li>
+<li><strong>placate</strong> – <em>verb</em> – to make (someone) less angry or hostile
+<ul>
+<li>A parent may decide to <strong>placate</strong> a baby with a pacifier.</li>
+</ul>
+</li>
+<li><strong>zeal</strong> – <em>noun</em> – a strong feel of interest and enthusiasm that makes someone very eager or determined to do something
+<ul>
+<li>The great emperor’s crusading <strong>zeal</strong> led him to conquer many lands.</li>
+</ul>
+</li>
+<li><strong>abstain</strong> – <em>verb</em> – to restrain oneself for doing or enjoying something
+<ul>
+<li>Doctors encourage their patients to <strong>abstain</strong> from smoking cigarettes.</li>
+</ul>
+</li>
+<li><strong>audacious</strong> – <em>adj.</em> – a willingness to take bold risks / adj. –&nbsp; showing a lack of respect
+<ul>
+<li>The new CEO pursued <strong>audacious</strong> initiatives to save the company from bankruptcy. / The student’s <strong>audacious</strong> remark earned her a seat in afternoon detention.</li>
+</ul>
+</li>
+<li><strong>desiccate</strong> – <em>verb</em> – remove the moisture from (something)
+<ul>
+<li>The heat and energy from the sun can <strong>desiccate</strong> even the most hearty plants.</li>
+</ul>
+</li>
+<li><strong>gullible</strong> – <em>adj.</em> – easily persuaded to believe something
+<ul>
+<li>The <strong>gullible</strong> little boy gave his older sister all of his allowance because she told him she would buy a pony for him.</li>
+</ul>
+</li>
+<li><strong>laudable</strong> – <em>adj.</em> – deserving praise and commendation
+<ul>
+<li>Providing affordable healthcare for all citizens is a <strong>laudable</strong> goal.</li>
+</ul>
+</li>
+<li><strong>pedant</strong> – <em>noun</em> – a person who makes an excessive display of learning
+<ul>
+<li>Professor Blackwell, a well-known <strong>pedant</strong>, required his pre-med students to speak in Latin throughout the entire semester.</li>
+</ul>
+</li>
+<li><strong>vacillate</strong> – <em>verb</em> – to waver between different opinions or actions
+<ul>
+<li>Undergraduate students often <strong>vacillate</strong> among various majors before deciding which degree to pursue.</li>
+</ul>
+</li>
+<li><strong>adulterate</strong> – <em>verb</em> – to make (something) impure or weaker by adding something of inferior quality
+<ul>
+<li>Many chefs use fresh produce and refuse to <strong>adulterate</strong> their dishes with canned ingredients.</li>
+</ul>
+</li>
+<li><strong>capricious</strong> – <em>adj.</em> – given to sudden changes of mood or behavior
+<ul>
+<li>The <strong>capricious</strong> supervisor would hand out raises one day and fire his entire staff the next.</li>
+</ul>
+</li>
+<li><strong>engender</strong> – <em>verb</em> – to produce, cause, or give rise to (something)
+<ul>
+<li>Political debates can <strong>engender</strong> controversy regarding the subjects discussed.</li>
+</ul>
+</li>
+<li><strong>homogenous</strong> – <em>adj.</em> – of the same or similar kind
+<ul>
+<li>There are very few truly <strong>homogenous</strong> cultures since social diversity is increasingly widespread.</li>
+</ul>
+</li>
+<li><strong>loquacious</strong> – <em>adj.</em> – tending to talk a great deal
+<ul>
+<li>The <strong>loquacious</strong> professor was known for his five-hour lectures.</li>
+</ul>
+</li>
+<li><strong>pragmatic</strong> – <em>adj.</em> – dealing with the problems that exist in a reasonable and logical way instead of depending on theories
+<ul>
+<li>A <strong>pragmatic</strong> approach to legislation can be difficult given the complexities of politics.</li>
+</ul>
+</li>
+<li><strong>volatile</strong> – <em>adj.</em> – likely to change rapidly and unpredictably
+<ul>
+<li>It is possible for a country’s political climate to remain <strong>volatile</strong> for decades.</li>
+</ul>
+</li>
+<li><strong>apathy</strong> – <em>noun</em> – lack of interest, enthusiasm, or concern
+<ul>
+<li>Political parties try to engage young voters who are more prone to <strong>apathy</strong> than older citizens.</li>
+</ul>
+</li>
+<li><strong>corroborate</strong> – <em>verb</em> – to confirm or make more certain
+<ul>
+<li>The scientist was able to <strong>corroborate</strong> his hypothesis with data gathered from multiple sources.</li>
+</ul>
+</li>
+<li><strong>ephemeral</strong> – <em>adj.</em> – lasting for a very short time
+<ul>
+<li>An <strong>ephemeral</strong> moment of victory may last mere seconds, but it can remain as a triumphant memory for decades.</li>
+</ul>
+</li>
+<li><strong>laconic</strong> – <em>adj.</em> – using few words
+<ul>
+<li>The student’s <strong>laconic</strong> response suggested&nbsp; that she did not know very much about the topic the professor was discussing.</li>
+</ul>
+</li>
+<li><strong>mitigate</strong> – <em>verb</em> – make less severe, serious, or painful
+<ul>
+<li>We want to <strong>mitigate</strong> students’ GRE stress by offering helpful study tools.</li>
+</ul>
+</li>
+<li><strong>propriety</strong> – <em>noun</em> – the state or quality of being correct or proper
+<ul>
+<li>The students were instructed to behave with the utmost <strong>propriety</strong> while on their class field trip.</li>
+</ul>
+</li>
+<li><strong>advocate</strong> – <em>verb</em> – publicly recommend or support
+<ul>
+<li>The governor chose to <strong>advocate</strong> for a higher minimum wage rather than a tax incentive.</li>
+</ul>
+</li>
+<li><strong>cacophony</strong> – <em>noun</em> – a harsh, unpleasant mixture of sounds
+<ul>
+<li>The <strong>cacophony</strong> of the middle school band warming up was nearly unbearable for the audience.</li>
+</ul>
+</li>
+<li><strong>enervate</strong> – <em>verb</em> – cause (someone or something) to feel drained of energy; weaken
+<ul>
+<li>The boxer used a swift left uppercut to the jaw to <strong>enervate</strong> his opponent.</li>
+</ul>
+</li>
+<li><strong>ingenuous</strong> – <em>adj.</em> – innocent and unsuspecting
+<ul>
+<li>The scam artist preyed on <strong>ingenuous</strong> nursing home residents.</li>
+</ul>
+</li>
+<li><strong>misanthrope</strong> – <em>noun</em> – a person who dislikes humankind
+<ul>
+<li>The neighborhood <strong>misanthrope</strong> surrounded his yard with barbed wire to keep people away.</li>
+</ul>
+</li>
+<li><strong>paradox</strong> – <em>noun</em> – a statement that contradicts itself but might be true
+<ul>
+<li>The fact that the retired teacher claimed to hate all pets but adopted seven cats is an intriguing <strong>paradox</strong>.</li>
+</ul>
+</li>
+<li><strong>venerate</strong> – verb – regard with great respect
+<ul>
+<li>To <strong>venerate</strong> the fire chief’s forty years of service, the department held a special banquet.</li>
+</ul>
+</li>
+<li><strong>antipathy</strong> – <em>noun</em> – a strong feeling of dislike
+<ul>
+<li>The students voiced their <strong>antipathy</strong> for homework very loudly.</li>
+</ul>
+</li>
+<li><strong>deride</strong> – <em>verb</em> – to express contempt for; ridicule
+<ul>
+<li>The unreasonable supervise was known to <strong>deride</strong> his employees on a daily basis.</li>
+</ul>
+</li>
+<li><strong>eulogy</strong> – <em>noun</em> – a speech that praises someone, typically some who has recently died
+<ul>
+<li>The rabbi’s <strong>eulogy</strong> was both heartfelt and inspiring.</li>
+</ul>
+</li>
+<li><strong>lethargic</strong> – <em>adj.</em> – lacking energy
+<ul>
+<li>It’s not uncommon to feel <strong>lethargic</strong> for weeks or even months after major surgery.</li>
+</ul>
+</li>
+<li><strong>obdurate</strong> – <em>adj.</em> – stubbornly refusing to change one’s opinion
+<ul>
+<li>The <strong>obdurate</strong> three-year-old refused to eat any vegetables, no matter how they were prepared.</li>
+</ul>
+</li>
+<li><strong>philanthropic</strong> – <em>adj.</em> – seeking to promote the welfare of others
+<ul>
+<li>The students were grateful to receive financial support from <strong>philanthropic</strong> organizations that promote education.</li>
+</ul>
+</li>
+<li><strong>waver</strong> – <em>verb</em> – to go back and forth between choices or opinions
+<ul>
+<li>Some citizens vote solely along party lines and never <strong>waver</strong> in their political decisions.</li>
+</ul>
+</li>
+<li><strong>bolster</strong> – <em>verb</em> – to support or strengthen
+<ul>
+<li>The prosecutor worked to find evidence that would <strong>bolster</strong> her case against the defendant.</li>
+</ul>
+</li>
+<li><strong>dissonance</strong> – <em>noun</em> – a lack of harmony or agreement
+<ul>
+<li>The school board’s meeting lasted for hours due to the length debate fueled by <strong>dissonance</strong> among opinions.</li>
+</ul>
+</li>
+<li><strong>garrulous</strong> – <em>adj.</em> – excessively talkative
+<ul>
+<li>The <strong>garrulous</strong> hair stylist talked to each customer for hours at a time.</li>
+</ul>
+</li>
+<li><strong>malleable</strong> – <em>adj.</em> – easily influenced; pliable
+<ul>
+<li>Children’s moods are often <strong>malleable</strong> since children are greatly affected by their surroundings.</li>
+</ul>
+</li>
+<li><strong>ostentation</strong> – <em>noun</em> – excessive display of wealth
+<ul>
+<li>Owning a mansion doesn’t imply <strong>ostentation</strong>, but traveling exclusively by private jet certainly can.</li>
+</ul>
+</li>
+<li><strong>prevaricate</strong> – <em>verb</em> – avoid telling the truth by not directly answering a question
+<ul>
+<li>During the trial, the lead witness was willing to <strong>prevaricate</strong> in order to protect his friend.</li>
+</ul>
+</li>
+</ol>
+
+
+
+
+
+</body>
+</html>
